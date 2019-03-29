@@ -15,7 +15,7 @@ let midX = width / 2
 let midY = height / 2
 
 var curveIndex: Int = 0
-let colorMixer: ColorMixer = ColorMixer.init(colors: myColors)
+let colorMixer: ColorMixer = ColorMixer.init(colors: palette)
 //let myGraph: PolarGraph = PolarGraph.init(0.2)
 let myGraph: PolarGraph = PolarGraph.init(0.2, height * 0.4)
 
