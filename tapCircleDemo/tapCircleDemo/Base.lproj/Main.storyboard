@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Touch Dot View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TouchDotViewController" customModule="tapCircleDemo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="M0G-bf-4Ok">
+                                <rect key="frame" x="0.0" y="335" width="667" height="30"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDB-fR-u7G">
+                                        <rect key="frame" x="0.0" y="10" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="9cd-7B-lrC"/>
+                                            <constraint firstAttribute="height" constant="20" id="Fg4-HC-bFv"/>
+                                        </constraints>
+                                    </view>
+                                    <slider opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.10000000000000001" maxValue="8" translatesAutoresizingMaskIntoConstraints="NO" id="fdy-OX-jwk">
+                                        <rect key="frame" x="38" y="0.0" width="254" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="Snr-IM-EHm"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="slideCurveValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="Eya-Q6-9yY"/>
+                                        </connections>
+                                    </slider>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yx-lz-u2t">
+                                        <rect key="frame" x="310" y="10" width="149" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="3Eg-FX-GhI"/>
+                                            <constraint firstAttribute="width" constant="149" id="coY-AT-sIh"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsZ-67-U33">
+                                        <rect key="frame" x="479" y="0.0" width="188" height="30"/>
+                                        <state key="normal" title="Change Curve">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeCurve:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Key-N7-Nz1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.11615527849740936" green="0.11615527849740936" blue="0.11615527849740936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M0G-bf-4Ok" secondAttribute="trailing" id="4V5-nT-sgH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M0G-bf-4Ok" secondAttribute="bottom" constant="10" id="Zb2-TK-bt7"/>
+                            <constraint firstItem="M0G-bf-4Ok" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cjn-W3-9or"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="23.838080959520241" y="45.600000000000001"/>
+        </scene>
+    </scenes>
+</document>
