@@ -9,7 +9,7 @@
 import UIKit
 
 // 16 colors
-let palette: [color] = [
+let myColors: [color] = [
     (194/255,86/255,119/255),
     (199/255,122/255,159/255),
     (178/255,116/255,158/255),

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A75F4985224DA4100010F71F /* DotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4984224DA4100010F71F /* DotScene.swift */; };
-		A75F4987224DA4270010F71F /* header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4986224DA4270010F71F /* header.swift */; };
-		A75F4989224DA4370010F71F /* CGVectorAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4988224DA4370010F71F /* CGVectorAwesome.swift */; };
-		A75F498B224DA4410010F71F /* ColorMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F498A224DA4410010F71F /* ColorMixer.swift */; };
-		A75F498D224DA4490010F71F /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F498C224DA4490010F71F /* Dot.swift */; };
-		A75F498F224DA4530010F71F /* PolarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F498E224DA4530010F71F /* PolarGraph.swift */; };
-		A75F4991224DA45D0010F71F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4990224DA45D0010F71F /* Utilities.swift */; };
+		A76B8DB2224DA56800A68A81 /* DotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B8DB1224DA56800A68A81 /* DotScene.swift */; };
+		A76B8DB9224DA57700A68A81 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B8DB4224DA57700A68A81 /* Utilities.swift */; };
+		A76B8DBA224DA57700A68A81 /* ColorMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B8DB5224DA57700A68A81 /* ColorMixer.swift */; };
+		A76B8DBB224DA57700A68A81 /* CGVectorAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B8DB6224DA57700A68A81 /* CGVectorAwesome.swift */; };
+		A76B8DBC224DA57700A68A81 /* PolarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B8DB7224DA57700A68A81 /* PolarGraph.swift */; };
+		A76B8DBD224DA57700A68A81 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B8DB8224DA57700A68A81 /* Dot.swift */; };
+		A76B8DBF224DA59F00A68A81 /* palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B8DBE224DA59F00A68A81 /* palette.swift */; };
 		A7B261A8224D9FA3005A40AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B261A7224D9FA3005A40AC /* AppDelegate.swift */; };
 		A7B261AC224D9FA3005A40AC /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B261AB224D9FA3005A40AC /* Scene.swift */; };
 		A7B261AE224D9FA3005A40AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B261AD224D9FA3005A40AC /* ViewController.swift */; };
@@ -23,13 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A75F4984224DA4100010F71F /* DotScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DotScene.swift; path = ../../tapCircleDemo/tapCircleDemo/DotScene.swift; sourceTree = "<group>"; };
-		A75F4986224DA4270010F71F /* header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = header.swift; path = ../../tapCircleDemo/tapCircleDemo/header.swift; sourceTree = "<group>"; };
-		A75F4988224DA4370010F71F /* CGVectorAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGVectorAwesome.swift; path = ../../tapCircleDemo/tapCircleDemo/Helpers/CGVectorAwesome.swift; sourceTree = "<group>"; };
-		A75F498A224DA4410010F71F /* ColorMixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorMixer.swift; path = ../../tapCircleDemo/tapCircleDemo/Helpers/ColorMixer.swift; sourceTree = "<group>"; };
-		A75F498C224DA4490010F71F /* Dot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dot.swift; path = ../../tapCircleDemo/tapCircleDemo/Helpers/Dot.swift; sourceTree = "<group>"; };
-		A75F498E224DA4530010F71F /* PolarGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolarGraph.swift; path = ../../tapCircleDemo/tapCircleDemo/Helpers/PolarGraph.swift; sourceTree = "<group>"; };
-		A75F4990224DA45D0010F71F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../tapCircleDemo/tapCircleDemo/Helpers/Utilities.swift; sourceTree = "<group>"; };
+		A76B8DB1224DA56800A68A81 /* DotScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DotScene.swift; path = ../../tapCircleDemo/tapCircleDemo/DotScene.swift; sourceTree = "<group>"; };
+		A76B8DB4224DA57700A68A81 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A76B8DB5224DA57700A68A81 /* ColorMixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorMixer.swift; sourceTree = "<group>"; };
+		A76B8DB6224DA57700A68A81 /* CGVectorAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVectorAwesome.swift; sourceTree = "<group>"; };
+		A76B8DB7224DA57700A68A81 /* PolarGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolarGraph.swift; sourceTree = "<group>"; };
+		A76B8DB8224DA57700A68A81 /* Dot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		A76B8DBE224DA59F00A68A81 /* palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = palette.swift; path = ../../tapCircleDemo/tapCircleDemo/palette.swift; sourceTree = "<group>"; };
 		A7B261A4224D9FA3005A40AC /* arkit_pascal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arkit_pascal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B261A7224D9FA3005A40AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B261AB224D9FA3005A40AC /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
@@ -51,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A76B8DB3224DA57700A68A81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A76B8DB4224DA57700A68A81 /* Utilities.swift */,
+				A76B8DB5224DA57700A68A81 /* ColorMixer.swift */,
+				A76B8DB6224DA57700A68A81 /* CGVectorAwesome.swift */,
+				A76B8DB7224DA57700A68A81 /* PolarGraph.swift */,
+				A76B8DB8224DA57700A68A81 /* Dot.swift */,
+			);
+			name = Helpers;
+			path = ../../tapCircleDemo/tapCircleDemo/Helpers;
+			sourceTree = "<group>";
+		};
 		A7B2619B224D9FA3005A40AC = {
 			isa = PBXGroup;
 			children = (
@@ -70,13 +83,9 @@
 		A7B261A6224D9FA3005A40AC /* arkit_pascal */ = {
 			isa = PBXGroup;
 			children = (
-				A75F4990224DA45D0010F71F /* Utilities.swift */,
-				A75F498E224DA4530010F71F /* PolarGraph.swift */,
-				A75F498C224DA4490010F71F /* Dot.swift */,
-				A75F498A224DA4410010F71F /* ColorMixer.swift */,
-				A75F4988224DA4370010F71F /* CGVectorAwesome.swift */,
-				A75F4986224DA4270010F71F /* header.swift */,
-				A75F4984224DA4100010F71F /* DotScene.swift */,
+				A76B8DBE224DA59F00A68A81 /* palette.swift */,
+				A76B8DB3224DA57700A68A81 /* Helpers */,
+				A76B8DB1224DA56800A68A81 /* DotScene.swift */,
 				A7B261A7224D9FA3005A40AC /* AppDelegate.swift */,
 				A7B261AB224D9FA3005A40AC /* Scene.swift */,
 				A7B261AD224D9FA3005A40AC /* ViewController.swift */,
@@ -159,16 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75F4989224DA4370010F71F /* CGVectorAwesome.swift in Sources */,
-				A75F498B224DA4410010F71F /* ColorMixer.swift in Sources */,
+				A76B8DBB224DA57700A68A81 /* CGVectorAwesome.swift in Sources */,
 				A7B261AE224D9FA3005A40AC /* ViewController.swift in Sources */,
-				A75F498D224DA4490010F71F /* Dot.swift in Sources */,
-				A75F4987224DA4270010F71F /* header.swift in Sources */,
-				A75F498F224DA4530010F71F /* PolarGraph.swift in Sources */,
 				A7B261AC224D9FA3005A40AC /* Scene.swift in Sources */,
-				A75F4985224DA4100010F71F /* DotScene.swift in Sources */,
-				A75F4991224DA45D0010F71F /* Utilities.swift in Sources */,
+				A76B8DBF224DA59F00A68A81 /* palette.swift in Sources */,
+				A76B8DBC224DA57700A68A81 /* PolarGraph.swift in Sources */,
+				A76B8DB2224DA56800A68A81 /* DotScene.swift in Sources */,
+				A76B8DBD224DA57700A68A81 /* Dot.swift in Sources */,
+				A76B8DB9224DA57700A68A81 /* Utilities.swift in Sources */,
 				A7B261A8224D9FA3005A40AC /* AppDelegate.swift in Sources */,
+				A76B8DBA224DA57700A68A81 /* ColorMixer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

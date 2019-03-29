@@ -10,6 +10,8 @@ import UIKit
 import SpriteKit
 import ARKit
 
+var scene: DotScene!
+
 class ViewController: UIViewController, ARSKViewDelegate {
     
     @IBOutlet var sceneView: ARSKView!
@@ -17,17 +19,21 @@ class ViewController: UIViewController, ARSKViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let screen = UIScreen.main.bounds
+        
         // Set the view's delegate
         sceneView.delegate = self
         
         // Show statistics such as fps and node count
         sceneView.showsFPS = true
         sceneView.showsNodeCount = true
+        sceneView.ignoresSiblingOrder = true
         
         // Load the SKScene from 'Scene.sks'
-        if let scene = SKScene(fileNamed: "Scene") {
-            sceneView.presentScene(scene)
-        }
+        scene = DotScene(size: CGSize(width: screen.width, height: screen.height))
+        scene.scaleMode = .resizeFill
+        sceneView.presentScene(scene)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
