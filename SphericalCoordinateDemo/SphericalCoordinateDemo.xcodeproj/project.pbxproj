@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7508818224EBCD400B7A9B6 /* SphereScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7508817224EBCD400B7A9B6 /* SphereScene.swift */; };
-		A750881A224EBDB500B7A9B6 /* PolarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7508819224EBDB500B7A9B6 /* PolarGraph.swift */; };
-		A750881C224EBDC100B7A9B6 /* SphericalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750881B224EBDC100B7A9B6 /* SphericalGraph.swift */; };
-		A750881E224EBE8600B7A9B6 /* DotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750881D224EBE8600B7A9B6 /* DotScene.swift */; };
+		A750881A224EBDB500B7A9B6 /* PolarGraphWithZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7508819224EBDB500B7A9B6 /* PolarGraphWithZ.swift */; };
 		A7D44DBE224EBC33007988A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D44DBD224EBC33007988A7 /* AppDelegate.swift */; };
 		A7D44DC2224EBC33007988A7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D44DC1224EBC33007988A7 /* GameViewController.swift */; };
 		A7D44DC5224EBC33007988A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D44DC3224EBC33007988A7 /* Main.storyboard */; };
 		A7D44DC7224EBC34007988A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D44DC6224EBC34007988A7 /* Assets.xcassets */; };
 		A7D44DCA224EBC34007988A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D44DC8224EBC34007988A7 /* LaunchScreen.storyboard */; };
+		A7E6FE75224FDAA100DFCB0E /* ColorMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6FE74224FDAA100DFCB0E /* ColorMixer.swift */; };
+		A7E6FE77224FDDB800DFCB0E /* MGSphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6FE76224FDDB800DFCB0E /* MGSphere.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7508817224EBCD400B7A9B6 /* SphereScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereScene.swift; sourceTree = "<group>"; };
-		A7508819224EBDB500B7A9B6 /* PolarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarGraph.swift; sourceTree = "<group>"; };
-		A750881B224EBDC100B7A9B6 /* SphericalGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphericalGraph.swift; sourceTree = "<group>"; };
-		A750881D224EBE8600B7A9B6 /* DotScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotScene.swift; sourceTree = "<group>"; };
+		A7508819224EBDB500B7A9B6 /* PolarGraphWithZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarGraphWithZ.swift; sourceTree = "<group>"; };
 		A7D44DBA224EBC33007988A7 /* SphericalCoordinateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphericalCoordinateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D44DBD224EBC33007988A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D44DC1224EBC33007988A7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +26,8 @@
 		A7D44DC6224EBC34007988A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D44DC9224EBC34007988A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D44DCB224EBC34007988A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E6FE74224FDAA100DFCB0E /* ColorMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixer.swift; sourceTree = "<group>"; };
+		A7E6FE76224FDDB800DFCB0E /* MGSphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSphere.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +60,10 @@
 		A7D44DBC224EBC33007988A7 /* SphericalCoordinateDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A7508819224EBDB500B7A9B6 /* PolarGraph.swift */,
-				A750881B224EBDC100B7A9B6 /* SphericalGraph.swift */,
-				A750881D224EBE8600B7A9B6 /* DotScene.swift */,
+				A7E6FE74224FDAA100DFCB0E /* ColorMixer.swift */,
+				A7508819224EBDB500B7A9B6 /* PolarGraphWithZ.swift */,
 				A7D44DC1224EBC33007988A7 /* GameViewController.swift */,
-				A7508817224EBCD400B7A9B6 /* SphereScene.swift */,
+				A7E6FE76224FDDB800DFCB0E /* MGSphere.swift */,
 				A7D44DBD224EBC33007988A7 /* AppDelegate.swift */,
 				A7D44DC3224EBC33007988A7 /* Main.storyboard */,
 				A7D44DC6224EBC34007988A7 /* Assets.xcassets */,
@@ -147,12 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7508818224EBCD400B7A9B6 /* SphereScene.swift in Sources */,
+				A7E6FE75224FDAA100DFCB0E /* ColorMixer.swift in Sources */,
+				A7E6FE77224FDDB800DFCB0E /* MGSphere.swift in Sources */,
 				A7D44DC2224EBC33007988A7 /* GameViewController.swift in Sources */,
 				A7D44DBE224EBC33007988A7 /* AppDelegate.swift in Sources */,
-				A750881A224EBDB500B7A9B6 /* PolarGraph.swift in Sources */,
-				A750881E224EBE8600B7A9B6 /* DotScene.swift in Sources */,
-				A750881C224EBDC100B7A9B6 /* SphericalGraph.swift in Sources */,
+				A750881A224EBDB500B7A9B6 /* PolarGraphWithZ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
