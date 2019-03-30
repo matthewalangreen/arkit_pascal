@@ -51,15 +51,7 @@ class GameViewController: UIViewController {
         setupCamera()
         //makeFirstSphere()
         let loc = SCNVector3(midX,midY,0)
-        let loc2 = SCNVector3(0,10,0)
-        let loc3 = SCNVector3(0,-10,0)
-        let loc4 = SCNVector3(10,0,0)
-        let loc5 = SCNVector3(-10,0,0)
-        makeSimpleSphere(atVector: loc)
-        makeSimpleSphere(atVector: loc2)
-        makeSimpleSphere(atVector: loc3)
-        makeSimpleSphere(atVector: loc4)
-        makeSimpleSphere(atVector: loc5)
+        makeMGSphere(atVector: loc)
     }
     
     override var shouldAutorotate: Bool {
@@ -105,18 +97,11 @@ class GameViewController: UIViewController {
         print("makeFirstSphere called")
     }
     
-//    func makeSphere(atVector: SCNVector3) {
-//        let nextColor = colorMixer.mixColors(delta: 0.05)
-//        let sphereGeometry = MGSphere.init(firstPointVector: atVector, sphereColor: nextColor)
-//        let sphereNode = SCNNode(geometry: sphereGeometry)
-//        sphereNode.position = atVector
-//        scnScene.rootNode.addChildNode(sphereNode)
-//        print("Nodes: \(scnScene.rootNode.childNodes.count), position: \(atVector)")
-//    }
+
     
-    func makeSimpleSphere(atVector: SCNVector3) {
-        let geometry = SCNSphere(radius: 2.0)
-        geometry.materials.first?.diffuse.contents = UIColor.orange
+    func makeMGSphere(atVector: SCNVector3) {
+        let nextColor = colorMixer.mixColors(delta: 0.05)
+        let geometry = MGSphere.init(firstPointVector: atVector, sphereColor: nextColor)
         let sphereNode = SCNNode(geometry: geometry)
         sphereNode.position = atVector
         scnScene.rootNode.addChildNode(sphereNode)
@@ -127,9 +112,7 @@ class GameViewController: UIViewController {
         let touch = touches.first!
         let location = touch.location(in: scnView)
         let touchLocationVector = SCNVector3(location.x, location.y, 0)
-        //makeSphere(atVector: touchLocationVector)
-//        makeSimpleSphere(atVector: touchLocationVector)
-        makeSimpleSphere(atVector: touchLocationVector)
+        makeMGSphere(atVector: touchLocationVector)
         print("Location: \(location), vector: \(touchLocationVector)")
     }
     

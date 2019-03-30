@@ -37,7 +37,7 @@ public class MGSphere: SCNSphere {
     
     convenience init(firstPointVector: SCNVector3, sphereColor: UIColor) {
         self.init()
-        self.init(radius: 50)
+        self.init(radius: 2)
         self.firstPointVector = firstPointVector
         self.location = firstPointVector
         self.newLocation = firstPointVector
