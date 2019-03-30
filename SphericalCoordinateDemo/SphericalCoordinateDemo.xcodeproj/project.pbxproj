@@ -10,6 +10,7 @@
 		A7508818224EBCD400B7A9B6 /* SphereScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7508817224EBCD400B7A9B6 /* SphereScene.swift */; };
 		A750881A224EBDB500B7A9B6 /* PolarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7508819224EBDB500B7A9B6 /* PolarGraph.swift */; };
 		A750881C224EBDC100B7A9B6 /* SphericalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750881B224EBDC100B7A9B6 /* SphericalGraph.swift */; };
+		A750881E224EBE8600B7A9B6 /* DotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750881D224EBE8600B7A9B6 /* DotScene.swift */; };
 		A7D44DBE224EBC33007988A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D44DBD224EBC33007988A7 /* AppDelegate.swift */; };
 		A7D44DC2224EBC33007988A7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D44DC1224EBC33007988A7 /* GameViewController.swift */; };
 		A7D44DC5224EBC33007988A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D44DC3224EBC33007988A7 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		A7508817224EBCD400B7A9B6 /* SphereScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereScene.swift; sourceTree = "<group>"; };
 		A7508819224EBDB500B7A9B6 /* PolarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarGraph.swift; sourceTree = "<group>"; };
 		A750881B224EBDC100B7A9B6 /* SphericalGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphericalGraph.swift; sourceTree = "<group>"; };
+		A750881D224EBE8600B7A9B6 /* DotScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotScene.swift; sourceTree = "<group>"; };
 		A7D44DBA224EBC33007988A7 /* SphericalCoordinateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphericalCoordinateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D44DBD224EBC33007988A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D44DC1224EBC33007988A7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -62,9 +64,10 @@
 			children = (
 				A7508819224EBDB500B7A9B6 /* PolarGraph.swift */,
 				A750881B224EBDC100B7A9B6 /* SphericalGraph.swift */,
+				A750881D224EBE8600B7A9B6 /* DotScene.swift */,
+				A7D44DC1224EBC33007988A7 /* GameViewController.swift */,
 				A7508817224EBCD400B7A9B6 /* SphereScene.swift */,
 				A7D44DBD224EBC33007988A7 /* AppDelegate.swift */,
-				A7D44DC1224EBC33007988A7 /* GameViewController.swift */,
 				A7D44DC3224EBC33007988A7 /* Main.storyboard */,
 				A7D44DC6224EBC34007988A7 /* Assets.xcassets */,
 				A7D44DC8224EBC34007988A7 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				A7D44DC2224EBC33007988A7 /* GameViewController.swift in Sources */,
 				A7D44DBE224EBC33007988A7 /* AppDelegate.swift in Sources */,
 				A750881A224EBDB500B7A9B6 /* PolarGraph.swift in Sources */,
+				A750881E224EBE8600B7A9B6 /* DotScene.swift in Sources */,
 				A750881C224EBDC100B7A9B6 /* SphericalGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

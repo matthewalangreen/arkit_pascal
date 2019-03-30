@@ -9,11 +9,17 @@
 import SceneKit
 import UIKit
 
+let bounds = UIScreen.main.bounds
+let midX = bounds.width
+let midY = bounds.height
+
 public class SphereScene: SCNScene {
     //MARK:- Properties
     var radius: CGFloat = 100
     
     
     
+    
 }
+
 
